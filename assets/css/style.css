@@ -1,0 +1,50 @@
+body {
+	margin: 32px;
+}
+.menu {
+	display: flex;
+	width: 30px;
+	float: right;
+}
+
+.container {
+	position: relative;
+}
+.title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 1;
+}	
+
+#name {
+	font-size: 120px;
+	color: #fee6b1;
+	opacity: 60%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	white-space: nowrap;
+}
+
+#description {
+	display: flex;
+	padding: 60px;
+	font-size: 18px;
+	position: absolute;
+	top: 50%;
+
+
+}
+
+.model {
+	width: 200px;
+	margin-left: 20%;
+	opacity: 60%;
+	overflow: hidden;
+	position: relative;
+	z-index: 0
+
+}
+
